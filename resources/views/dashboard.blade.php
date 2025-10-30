@@ -1,4 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio TASS</title>
+    
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+</head>
+<body>
+    <!-- Ton contenu ici -->
+    
 <x-app-layout>
+
     <x-slot name="header">
         <div class="flex items-center justify-between bg-white/10 backdrop-blur-sm rounded-2xl px-6 py-4 shadow-xl border border-white/20">
             <h2 class="font-bold text-2xl text-white leading-tight flex items-center drop-shadow-lg">
@@ -292,3 +305,9 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </x-app-layout>
+
+</body>
+</html>
+
+
+
